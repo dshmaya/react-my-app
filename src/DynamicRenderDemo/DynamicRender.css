@@ -1,0 +1,19 @@
+.redStyle
+{
+  color: red;
+}
+
+.blueStyle
+{
+  color: blue;
+}
+
+.visibleStyle
+{
+  visibility: visible
+}
+
+.hiddenStyle
+{
+  visibility: hidden
+}
