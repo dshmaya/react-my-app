@@ -14,8 +14,8 @@ class TaskComp extends Component
   render()
   {
     return(
-     <div>
-       title  : {this.props.task.title} completed:{this.props.task.completed.toString()}
+     <div className="task">
+       title  : {this.props.task.title} <br/> completed:{this.props.task.completed.toString()}
      </div>
     )
   }

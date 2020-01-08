@@ -22,7 +22,7 @@ class PersonComp extends Component
 
     return(
      <div>
-       {this.props.person.name}
+       Name : {this.props.person.name}
         {tasksComp}
       </div>
     )

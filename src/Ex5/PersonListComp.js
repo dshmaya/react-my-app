@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import ChildComp from './ChildComp'
+import ChildComp from '../DynamicRenderDemo/ChildComp'
 import PersonComp from "./PersonComp";
+import './Ex5.css'
 
 
 
@@ -27,6 +28,7 @@ class PersonListComp extends Component
     return(
      <div>
         <br/>
+        <h1>Persons List :</h1>
         {personComps}
       </div>
     )

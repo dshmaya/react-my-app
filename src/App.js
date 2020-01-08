@@ -11,7 +11,7 @@ import Ex3Comp from './Exs/Ex3';
 
 
 import './App.css';
-import PersonListComp from "./DynamicRenderDemo/PersonListComp";
+import PersonListComp from "./Ex5/PersonListComp";
 
 
 class App extends Component
